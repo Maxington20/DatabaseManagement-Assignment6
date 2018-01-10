@@ -1,0 +1,39 @@
+
+(2 row(s) affected)
+
+(5 row(s) affected)
+
+(2 row(s) affected)
+
+(3 row(s) affected)
+
+(6 row(s) affected)
+
+(11 row(s) affected)
+All jobs done for Suzuki
+ 
+OrderID     Part #     Part Type                      Employee             Plant                          Time(min)
+----------- ---------- ------------------------------ -------------------- ------------------------------ -----------
+1           MOTO001    Crankshaft                     Joe                  Guelph                         45
+2           MOTO001    Crankshaft                     Frank                Waterloo                       40
+3           MOTO002    Piston                         Joe                  Guelph                         20
+4           CAR001     Piston                         Mary                 Waterloo                       15
+9           MOTO003    Exhaust                        John                 Waterloo                       45
+10          CAR003     Crankshaft                     John                 Waterloo                       25
+
+(6 row(s) affected)
+
+Parts made by the various employees at the Waterloo Plant
+ 
+FirstName            PartNumber Time
+-------------------- ---------- -----------
+Frank                MOTO001    40
+Frank                CAR003     45
+John                 MOTO003    45
+John                 CAR003     25
+Mary                 CAR001     15
+Mary                 CAR001     20
+Mary                 MOTO002    10
+
+(7 row(s) affected)
+
